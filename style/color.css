@@ -304,13 +304,68 @@
   font-weight: bold;
   font-family: Inter;
   font-size: 15px;
-
 }
 
-.subscribe-form-email::placeholder{
-    left: 30px;
-    bottom: 10px;
-    font-size: 15px;
-    position: absolute;
-    font-family: Inter;
+.subscribe-form-email::placeholder {
+  left: 30px;
+  bottom: 10px;
+  font-size: 15px;
+  position: absolute;
+  font-family: Inter;
+}
+
+/* footer starts */
+
+.footer-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #070211;
+  width: 1519px;
+  height: 609px;
+  color: #fff;
+}
+
+.footer-items-icon {
+    display: flex;
+    justify-content: space-around;
+    background: #070211;
+   
+    
+}
+
+.address, .rights, .contact, .website, .unsubscribe {
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+}
+
+.address{
+    padding-left: 126px;
+    padding-bottom: 60px;
+}
+
+.rights{
+    padding-left: 126px;
+    padding-top: 230px;
+    
+}
+
+.contact, .website{
+    padding-right: 230px;
+     
+}
+.website{
+    padding-bottom: 55px;
+}
+.unsubscribe{
+    padding-left: 200px;
+    padding-top: 250px;
+}
+
+.icons{
+    padding: 20px;
 }
