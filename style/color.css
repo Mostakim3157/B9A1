@@ -45,7 +45,6 @@
   font-size: 88px;
   font-weight: 700;
   padding: 110px 0px 48px 0px;
-
 }
 
 .our-holiday {
@@ -69,9 +68,61 @@
 .happy-new-year {
   width: 802.9px;
   height: 500px;
-  
-margin: 0 auto;
+
+  margin: 0 auto;
 }
 
 /* mid night party starts */
 
+.mid-night-party {
+  display: flex;
+}
+
+.mid-night-party {
+  background-image: url("../resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.welcome {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  padding-left: 126px;
+  padding-right: 100px;
+  padding-top: 126px;
+}
+
+.welcome-discription {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 250px 0px 126px;
+}
+
+.party-btn{
+    color: #2d2d2d;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+background-color: #ffffff;
+margin-left: 126px ;
+margin-top: 20px;
+}
+
+.img-0f-2024{
+  
+margin: 67px 138px 67px 0px;
+}
