@@ -214,20 +214,103 @@
 .porfolio-items {
   display: flex;
   align-items: center;
-  justify-content:center;
-  width:1380px ; 
-  margin-left: 70px; 
-  
+  justify-content: center;
+  width: 1380px;
+  margin-left: 70px;
 }
 
-.porfolio-items img{
-    max-width: 100%;
-    max-height: 100%;
-    
+.porfolio-items img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.div-portfolio-items-pic{
-    padding: 30px;
+.div-portfolio-items-pic {
+  padding: 30px;
 }
 
+/* subscribe newsletter starts */
 
+.subscribe {
+  border-radius: 10px;
+  background: rgba(255, 0, 0, 0.05);
+  width: 1320px;
+  height: 616px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.subcribe-img {
+  margin-top: 80px;
+  margin-bottom: 22px;
+}
+.subscribe-h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.subscribe-pg {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 220px;
+  line-height: 32px;
+  margin-bottom: 32px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-form-input {
+  width: 520px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 0px;
+  margin-top: 30px;
+  height: 60px;
+}
+
+.subscribe-form-input input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.subscribe-form-submit {
+  width: 160px;
+  height: 70px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Inter;
+  font-size: 15px;
+
+}
+
+.subscribe-form-email::placeholder{
+    left: 30px;
+    bottom: 10px;
+    font-size: 15px;
+    position: absolute;
+    font-family: Inter;
+}
