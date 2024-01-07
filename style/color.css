@@ -5,7 +5,6 @@
   padding: 0;
 }
 
-
 /* header starts */
 
 .banner {
@@ -35,3 +34,44 @@
   line-height: 95px;
   padding: 10px 344px 177px 344px;
 }
+
+/* main starts */
+
+/* holiday deals strats */
+.off {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  padding: 110px 0px 48px 0px;
+
+}
+
+.our-holiday {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+
+.categories {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 48px;
+}
+
+.happy-new-year {
+  width: 802.9px;
+  height: 500px;
+  
+margin: 0 auto;
+}
+
+/* mid night party starts */
+
