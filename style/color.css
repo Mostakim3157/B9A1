@@ -108,21 +108,73 @@
   padding: 24px 250px 0px 126px;
 }
 
-.party-btn{
-    color: #2d2d2d;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-padding: 10px 15px;
-border: none;
-border-radius: 5px;
-background-color: #ffffff;
-margin-left: 126px ;
-margin-top: 20px;
+.party-btn {
+  color: #2d2d2d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-left: 126px;
+  margin-top: 20px;
 }
 
-.img-0f-2024{
-  
-margin: 67px 138px 67px 0px;
+.img-0f-2024 {
+  margin: 67px 138px 67px 0px;
+}
+
+/* party info starts */
+
+.place-date-time {
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  background-color: #fff1f1;
+  margin-top: 120px;
+  border-radius: 17px;
+}
+.place-date-time div {
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
+.primary {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+
+.span-color {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.info-btn {
+  background-color: #f00;
+  color: white;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 5px;
+
+}
+
+.btn-of-info{
+    margin: 0 auto;
+    margin-top: -40px;
+
 }
